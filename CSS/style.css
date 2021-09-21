@@ -1,0 +1,86 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+#container{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  
+}
+#container #contactlist #mainheading{
+ text-align: center;
+}
+#container #contactlist{
+    position: relative;
+   
+      background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    overflow: scroll;
+}
+#search {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    overflow:hidden;
+    
+}
+#search button{
+    width: 60px;
+    height: 40px;
+    background:linear-gradient(red  , yellow);
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+#search button:hover{
+    background:linear-gradient(to right,red  , yellow);   
+}
+#container #contactlist #search input{
+        width: 260px;
+        height: 30px;
+        margin: 20px;
+        border: none;
+        font-size: 1.5rem;
+        border-bottom: 1px solid black;
+        outline: none;
+}
+
+#List{
+    position: relative;
+ 
+    
+}
+#List h1{
+border: 1px solid black;
+padding: 5px , 10px ;
+}
+#newcontact div {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 40px;
+    align-items: center;
+}
+#newcontact li{
+   
+    list-style: none;
+    color: blue;
+    font-size: 1.2rem;
+   
+    /* align-content: center; */
+   
+}
+#newcontact div h3{
+    position:relative;
+    /* float: right; */
+    color: black;
+    right: 20px;
+    cursor: pointer;
+}
